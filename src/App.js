@@ -1,13 +1,11 @@
-import Userlogin from "./components/Userlogin"
-import Stopwatch from "./components/Stopwatch"
-
+import Fruits from "./components/Fruits"
 const App = () => {
   return (
-    <div>
-      <Userlogin/>
-      <Stopwatch/>
-    </div>
-  )
+<Fruits/>
+ 
+    )
 }
 
 export default App
+
+
