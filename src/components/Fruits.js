@@ -9,8 +9,7 @@ import CartPage from '../Pages/CartPage'
 import { useState } from 'react'
 
 const Fruits = () => {
-  const [cart]=useState([]);
-  
+   const [cart]=useState([]);
   return (
     <div>
      
@@ -27,3 +26,4 @@ const Fruits = () => {
 }
 
 export default Fruits
+
